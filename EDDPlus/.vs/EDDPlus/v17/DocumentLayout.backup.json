@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\eddplus\\windows\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:windows\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\eddplus\\windows\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:windows\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\eddplus\\helper\\userprofileimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:helper\\userprofileimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\eddplus\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfileImage.cs",
+              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Helper\\UserProfileImage.cs",
+              "RelativeDocumentMoniker": "Helper\\UserProfileImage.cs",
+              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Helper\\UserProfileImage.cs",
+              "RelativeToolTip": "Helper\\UserProfileImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T09:03:29.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Windows\\Login.cs",
+              "RelativeDocumentMoniker": "Windows\\Login.cs",
+              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Windows\\Login.cs",
+              "RelativeToolTip": "Windows\\Login.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T07:57:54.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Windows\\Login.cs",
+              "RelativeDocumentMoniker": "Windows\\Login.cs",
+              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Windows\\Login.cs [Design]",
+              "RelativeToolTip": "Windows\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T07:52:47.933Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:35:23.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Main.cs [Design]",
+              "RelativeToolTip": "Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T15:49:14.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
