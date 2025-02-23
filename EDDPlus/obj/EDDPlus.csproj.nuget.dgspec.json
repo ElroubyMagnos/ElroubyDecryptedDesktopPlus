@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\EDDPlus.csproj": {}
+  },
+  "projects": {
+    "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\EDDPlus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\EDDPlus.csproj",
+        "projectName": "EDDPlus",
+        "projectPath": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\EDDPlus.csproj",
+        "packagesPath": "C:\\Users\\abeda\\.nuget\\packages\\",
+        "outputPath": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {
+              "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDSupport\\EDDSupport.vcxproj": {
+                "projectPath": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDSupport\\EDDSupport.vcxproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDSupport\\EDDSupport.vcxproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDSupport\\EDDSupport.vcxproj",
+        "projectName": "EDDSupport",
+        "projectPath": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDSupport\\EDDSupport.vcxproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    }
+  }
+}

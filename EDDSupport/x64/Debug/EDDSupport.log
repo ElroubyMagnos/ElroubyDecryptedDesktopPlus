@@ -1,0 +1,20 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(520,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  pch.cpp
+  Crypto.cpp
+  dllmain.cpp
+  MainExport.cpp
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(50,17): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(50,17): warning C4566: character represented by universal-character-name '\u0637' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(50,17): warning C4566: character represented by universal-character-name '\u0623' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(53,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/MainExport.cpp')
+  
+  Generating Code...
+     Creating library ..\EDDPlus\bin\Debug\net9.0-windows\EDDSupport.lib and object ..\EDDPlus\bin\Debug\net9.0-windows\EDDSupport.exp
+  EDDSupport.vcxproj -> D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDPlus\bin\Debug\net9.0-windows\EDDSupport.dll

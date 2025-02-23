@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "uX3QjZGFvC4=",
+  "success": true,
+  "projectFilePath": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\EDDPlus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abeda\\.nuget\\packages\\system.codedom\\9.0.2\\system.codedom.9.0.2.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.2\\system.configuration.configurationmanager.9.0.2.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.2\\system.diagnostics.eventlog.9.0.2.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\system.directoryservices\\9.0.2\\system.directoryservices.9.0.2.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\system.directoryservices.accountmanagement\\9.0.2\\system.directoryservices.accountmanagement.9.0.2.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\system.directoryservices.protocols\\9.0.2\\system.directoryservices.protocols.9.0.2.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\system.management\\9.0.2\\system.management.9.0.2.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.2\\system.security.cryptography.protecteddata.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
