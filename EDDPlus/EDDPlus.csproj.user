@@ -19,5 +19,8 @@
     <Compile Update="Windows\PropertiesWindow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Windows\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

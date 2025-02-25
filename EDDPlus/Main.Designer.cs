@@ -34,6 +34,7 @@ namespace EDDPlus
             OpenFileDialog = new OpenFileDialog();
             MenuStrip = new MenuStrip();
             BackButton = new ToolStripMenuItem();
+            Refresh_btn = new ToolStripMenuItem();
             fileToolStripMenuItem = new ToolStripMenuItem();
             importToolStripMenuItem = new ToolStripMenuItem();
             ImportFile = new ToolStripMenuItem();
@@ -49,7 +50,6 @@ namespace EDDPlus
             SaveFileDialog = new SaveFileDialog();
             ContextStrip = new ContextMenuStrip(components);
             Paste_Btn = new ToolStripMenuItem();
-            Refresh_btn = new ToolStripMenuItem();
             MenuStrip.SuspendLayout();
             ContextStrip.SuspendLayout();
             SuspendLayout();
@@ -84,16 +84,26 @@ namespace EDDPlus
             BackButton.Text = "Back";
             BackButton.Click += BackButton_Click;
             // 
+            // Refresh_btn
+            // 
+            Refresh_btn.Image = Properties.Resources.reload;
+            Refresh_btn.Name = "Refresh_btn";
+            Refresh_btn.Size = new Size(74, 20);
+            Refresh_btn.Text = "Refresh";
+            Refresh_btn.Click += Refresh_btn_Click;
+            // 
             // fileToolStripMenuItem
             // 
             fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { importToolStripMenuItem, ExportSelected });
+            fileToolStripMenuItem.Image = Properties.Resources.file1;
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            fileToolStripMenuItem.Size = new Size(37, 20);
+            fileToolStripMenuItem.Size = new Size(53, 20);
             fileToolStripMenuItem.Text = "File";
             // 
             // importToolStripMenuItem
             // 
             importToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ImportFile, ImportFolder });
+            importToolStripMenuItem.Image = Properties.Resources.import_it1;
             importToolStripMenuItem.Name = "importToolStripMenuItem";
             importToolStripMenuItem.Size = new Size(110, 22);
             importToolStripMenuItem.Text = "Import";
@@ -101,47 +111,52 @@ namespace EDDPlus
             // ImportFile
             // 
             ImportFile.Name = "ImportFile";
-            ImportFile.Size = new Size(107, 22);
+            ImportFile.Size = new Size(180, 22);
             ImportFile.Text = "File";
             ImportFile.Click += ImportFile_Click;
             // 
             // ImportFolder
             // 
             ImportFolder.Name = "ImportFolder";
-            ImportFolder.Size = new Size(107, 22);
+            ImportFolder.Size = new Size(180, 22);
             ImportFolder.Text = "Folder";
             ImportFolder.Click += ImportFolder_Click;
             // 
             // ExportSelected
             // 
+            ExportSelected.Image = Properties.Resources.export;
             ExportSelected.Name = "ExportSelected";
-            ExportSelected.Size = new Size(110, 22);
+            ExportSelected.Size = new Size(180, 22);
             ExportSelected.Text = "Export";
             ExportSelected.Click += ExportSelected_Click;
             // 
             // editToolStripMenuItem
             // 
             editToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cutToolStripMenuItem, copyToolStripMenuItem, pasteToolStripMenuItem });
+            editToolStripMenuItem.Image = Properties.Resources.edit;
             editToolStripMenuItem.Name = "editToolStripMenuItem";
-            editToolStripMenuItem.Size = new Size(39, 20);
+            editToolStripMenuItem.Size = new Size(55, 20);
             editToolStripMenuItem.Text = "Edit";
             // 
             // cutToolStripMenuItem
             // 
+            cutToolStripMenuItem.Image = Properties.Resources.cutit;
             cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            cutToolStripMenuItem.Size = new Size(102, 22);
+            cutToolStripMenuItem.Size = new Size(180, 22);
             cutToolStripMenuItem.Text = "Cut";
             // 
             // copyToolStripMenuItem
             // 
+            copyToolStripMenuItem.Image = Properties.Resources.copy;
             copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            copyToolStripMenuItem.Size = new Size(102, 22);
+            copyToolStripMenuItem.Size = new Size(180, 22);
             copyToolStripMenuItem.Text = "Copy";
             // 
             // pasteToolStripMenuItem
             // 
+            pasteToolStripMenuItem.Image = Properties.Resources.paste;
             pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            pasteToolStripMenuItem.Size = new Size(102, 22);
+            pasteToolStripMenuItem.Size = new Size(180, 22);
             pasteToolStripMenuItem.Text = "Paste";
             // 
             // ProgressBar
@@ -177,14 +192,6 @@ namespace EDDPlus
             Paste_Btn.Text = "Paste";
             Paste_Btn.Click += Paste_Btn_Click;
             // 
-            // Refresh_btn
-            // 
-            Refresh_btn.Image = Properties.Resources.reload;
-            Refresh_btn.Name = "Refresh_btn";
-            Refresh_btn.Size = new Size(74, 20);
-            Refresh_btn.Text = "Refresh";
-            Refresh_btn.Click += Refresh_btn_Click;
-            // 
             // Main
             // 
             AllowDrop = true;
@@ -198,7 +205,7 @@ namespace EDDPlus
             Controls.Add(MenuStrip);
             Name = "Main";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Elrouby Decrypted Desktop Plus";
+            Text = "Elrouby: Decrypted Desktop Plus";
             WindowState = FormWindowState.Maximized;
             MenuStrip.ResumeLayout(false);
             MenuStrip.PerformLayout();

@@ -3,16 +3,190 @@
   Crypto.cpp
   dllmain.cpp
   MainExport.cpp
-D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(50,17): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u062A' cannot be represented in the current code page (1252)
   (compiling source file '/MainExport.cpp')
   
-D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(50,17): warning C4566: character represented by universal-character-name '\u0637' cannot be represented in the current code page (1252)
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
   (compiling source file '/MainExport.cpp')
   
-D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(50,17): warning C4566: character represented by universal-character-name '\u0623' cannot be represented in the current code page (1252)
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u0625' cannot be represented in the current code page (1252)
   (compiling source file '/MainExport.cpp')
   
-D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(53,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u0646' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u0634' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u0621' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(148,29): warning C4566: character represented by universal-character-name '\u0641' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u062A' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0639' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0630' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0631' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0625' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0646' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0634' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0621' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(152,29): warning C4566: character represented by universal-character-name '\u0641' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u062A' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u0625' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u0646' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u0634' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u0621' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u062C' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(158,29): warning C4566: character represented by universal-character-name '\u062F' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u062C' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u062F' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u0648' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u0628' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u0641' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(161,29): warning C4566: character represented by universal-character-name '\u0639' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(167,17): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(167,17): warning C4566: character represented by universal-character-name '\u0637' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(167,17): warning C4566: character represented by universal-character-name '\u0623' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u0633' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u0631' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u063A' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u064A' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u0648' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u062C' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u062F' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u0623' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(182,21): warning C4566: character represented by universal-character-name '\u064B' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(188,17): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(188,17): warning C4566: character represented by universal-character-name '\u0637' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(188,17): warning C4566: character represented by universal-character-name '\u0623' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(249,17): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(249,17): warning C4566: character represented by universal-character-name '\u0637' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(249,17): warning C4566: character represented by universal-character-name '\u0623' cannot be represented in the current code page (1252)
+  (compiling source file '/MainExport.cpp')
+  
+D:\Windows Helper\Main Folders\Desktop\Elrouby Decrypted Desktop Plus\EDDSupport\MainExport.cpp(252,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file '/MainExport.cpp')
   
   Generating Code...

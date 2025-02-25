@@ -1,14 +1,4 @@
-﻿using EDDPlus.Helper;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Security;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using EDDPlus.DB;
 
 namespace EDDPlus.Windows
 {
@@ -18,32 +8,31 @@ namespace EDDPlus.Windows
         {
             InitializeComponent();
         }
-
-        private void Login_Load(object sender, EventArgs e)
-        {
-            UserPic.BackgroundImage = Image.FromFile(UserProfileImage.GetUserProfileImageFromRegistry());
-
-            Username.Text = Environment.UserName;
-        }
-
         private void Enter_Click(object sender, EventArgs e)
         {
-            
+            var eddplus = new eddplus();
+
+            if (eddplus.Users.Any(x => x.Name == Username.Text && x.Password == PasswordEntry.Text))
+            {
+                MessageBox.Show("Signed In Successfully!", "Great!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+                Hide();
+
+                new Main(Username.Text).ShowDialog();
+
+                Application.Exit();
+            }
+            else
+            {
+                MessageBox.Show("Wrong Account!", "Attention!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
-        public static SecureString ConvertToSecureString(string plainText)
+        private void CreateAccount_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(plainText))
-                throw new ArgumentNullException(nameof(plainText));
-
-            SecureString secureString = new SecureString();
-            foreach (char c in plainText)
-            {
-                secureString.AppendChar(c);
-            }
-
-            secureString.MakeReadOnly();
-            return secureString;
+            Hide();
+            new Register().ShowDialog();
+            Show();
         }
     }
 }

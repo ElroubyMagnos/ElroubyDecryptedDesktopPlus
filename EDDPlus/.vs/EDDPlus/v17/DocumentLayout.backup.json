@@ -3,24 +3,19 @@
   "WorkspaceRootPath": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\elrouby decrypted desktop plus\\eddplus\\windows\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:windows\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\elrouby decrypted desktop plus\\eddplus\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\elrouby decrypted desktop plus\\eddplus\\windows\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:windows\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\elrouby decrypted desktop plus\\eddplus\\helper\\userprofileimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:helper\\userprofileimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\elrouby decrypted desktop plus\\eddplus\\items\\filefolderpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:items\\filefolderpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|d:\\windows helper\\main folders\\desktop\\elrouby decrypted desktop plus\\eddplus\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA43E890-9CB8-499B-8449-FFB8BF4EAFDD}|EDDPlus.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E2DE56BD-18E6-45CA-A062-E61E366A9E30}|..\\EDDSupport\\EDDSupport.vcxproj|D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDSupport\\MainExport.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +25,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserProfileImage.cs",
-              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Helper\\UserProfileImage.cs",
-              "RelativeDocumentMoniker": "Helper\\UserProfileImage.cs",
-              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Helper\\UserProfileImage.cs",
-              "RelativeToolTip": "Helper\\UserProfileImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T09:03:29.862Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Windows\\Login.cs",
-              "RelativeDocumentMoniker": "Windows\\Login.cs",
-              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Windows\\Login.cs",
-              "RelativeToolTip": "Windows\\Login.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwB4AAAAMAAAAAAAAAA==",
+              "Title": "FileFolderPath.cs",
+              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Items\\FileFolderPath.cs",
+              "RelativeDocumentMoniker": "Items\\FileFolderPath.cs",
+              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Items\\FileFolderPath.cs",
+              "RelativeToolTip": "Items\\FileFolderPath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T07:57:54.773Z",
+              "WhenOpened": "2025-02-25T10:22:15.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Windows\\Login.cs",
-              "RelativeDocumentMoniker": "Windows\\Login.cs",
-              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Windows\\Login.cs [Design]",
-              "RelativeToolTip": "Windows\\Login.cs [Design]",
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Main.cs [Design]",
+              "RelativeToolTip": "Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T07:52:47.933Z",
+              "WhenOpened": "2025-02-25T09:50:46.848Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MainExport.cpp",
+              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDSupport\\MainExport.cpp",
+              "RelativeDocumentMoniker": "..\\EDDSupport\\MainExport.cpp",
+              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDSupport\\MainExport.cpp",
+              "RelativeToolTip": "..\\EDDSupport\\MainExport.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-25T08:40:21.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T19:35:23.862Z",
+              "WhenOpened": "2025-02-25T08:27:48.841Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "D:\\Windows Helper\\Main Folders\\Desktop\\Elrouby Decrypted Desktop Plus\\EDDPlus\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "D:\\Windows Helper\\Main Folders\\Desktop\\EDDPlus\\Main.cs [Design]",
-              "RelativeToolTip": "..\\..\\EDDPlus\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T15:49:14.457Z"
             }
           ]
         }

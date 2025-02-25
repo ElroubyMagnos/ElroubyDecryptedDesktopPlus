@@ -59,7 +59,7 @@ namespace EDDPlus
         }
         public static string PathOfFiles;
         public static Main MainPage;
-        public Main()
+        public Main(string Username)
         {
             InitializeComponent();
 
@@ -67,17 +67,19 @@ namespace EDDPlus
 
             CheckForIllegalCrossThreadCalls = false;
 
-            PathOfFiles = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");
+            PathOfFiles = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data\\" + Username);
 
             if (!Directory.Exists(PathOfFiles))
             {
                 Directory.CreateDirectory(PathOfFiles);
             }
 
+            DirectoryInfo directoryInfo = new DirectoryInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data"));
+            directoryInfo.Attributes |= FileAttributes.Hidden;
+
             LoadFilesInSpace(PathOfFiles);
-
-
         }
+
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public static string CutPath { get; set; }
         private void SpaceOfFiles_DragDrop(object sender, DragEventArgs e)
@@ -105,10 +107,15 @@ namespace EDDPlus
 
             foreach (var file in files)
             {
-                var CurrentPath = Path.Combine(PathOfFiles + PathOf.Text, file.Split('\\').Last() + ".rouby");
-                CPPImport.EncryptAll(file, CurrentPath);
-
-                ProgressFileReach++;
+                if (Path.GetExtension(file).Length > 0)
+                {
+                    var CurrentPath = Path.Combine(PathOfFiles + PathOf.Text, file.Split('\\').Last() + ".rouby");
+                    CPPImport.EncryptAll(file, CurrentPath);
+                }
+                else
+                {
+                    CPPImport.CopyAndEncryptFolder(file, PathOfFiles + PathOf.Text + "\\" + file.Split('\\').Last());
+                }
             }
 
             LoadFilesInSpace(PathOfFiles + "\\" + PathOf.Text);
@@ -137,38 +144,14 @@ namespace EDDPlus
         {
             if (FolderDialog.ShowDialog() == DialogResult.OK)
             {
+
                 var FolderPath = FolderDialog.SelectedPath;
 
                 var CurrentDir = Path.Combine(PathOfFiles + "\\" + PathOf.Text, FolderPath.Split('\\').Last());
 
-                Directory.CreateDirectory(CurrentDir);
+                var AllPaths = CPPImport.DeepGetAllPathsFromFolder(FolderPath).ToArray();
 
-                var GetFilesPaths = CPPImport.GetFilesAndFolders(FolderPath);
-
-                ProgressBar.Maximum = GetFilesPaths.Count();
-
-                var t = new Thread(() =>
-                {
-                    while (true)
-                    {
-                        ProgressBar.Value = ProgressFileReach;
-
-                        if (ProgressBar.Value >= ProgressBar.Maximum)
-                        {
-                            break;
-                        }
-                    }
-                });
-
-                t.Start();
-
-                foreach (var file in GetFilesPaths)
-                {
-                    var CurrentPath = Path.Combine(CurrentDir, file.Split('\\').Last() + ".rouby");
-                    CPPImport.EncryptAll(file, CurrentPath);
-
-                    ProgressFileReach++;
-                }
+                CPPImport.CopyAndEncryptFolder(FolderPath, CurrentDir);
 
                 LoadFilesInSpace(PathOfFiles + "\\" + PathOf.Text);
             }
@@ -218,30 +201,7 @@ namespace EDDPlus
             {
                 if (FolderDialog.ShowDialog() == DialogResult.OK)
                 {
-                    ProgressFileReach = 0;
-
-                    var t = new Thread(() =>
-                    {
-                        while (true)
-                        {
-                            ProgressBar.Value = ProgressFileReach;
-
-                            if (ProgressBar.Value >= ProgressBar.Maximum)
-                            {
-                                break;
-                            }
-                        }
-                    });
-
-                    var Files = CPPImport.GetFilesAndFolders(SelectedItemOf.PathOf);
-                    ProgressBar.Maximum = Files.Count();
-                    t.Start();
-                    foreach (var file in Files)
-                    {
-                        CPPImport.DecryptAll(file, FolderDialog.SelectedPath + "\\" + file.Split('\\').Last().Replace(".rouby", ""));
-
-                        ProgressFileReach++;
-                    }
+                    CPPImport.CopyAndDecryptFolder(SelectedItemOf.PathOf, FolderDialog.SelectedPath);
                 }
                 else MessageBox.Show("Please select a file or folder", "Hey");
             }

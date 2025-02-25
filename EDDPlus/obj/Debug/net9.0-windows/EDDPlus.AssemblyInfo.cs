@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EDDPlus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b342808f22a6b516d28617fe8eed19425be30e5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+619357bddb6ba81bf8fbf6f71e45fabd4645d3db")]
 [assembly: System.Reflection.AssemblyProductAttribute("EDDPlus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EDDPlus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
